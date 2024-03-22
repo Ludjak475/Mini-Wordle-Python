@@ -41,7 +41,6 @@ def guessing():
                         revealed[x]=revword[x]
                 print("Your Answer is :                "," ".join(revanswer))
                 print("The Word You re looking for is :"," ".join(revealed))
-                print("cheater word is ", revword)
                 tempol = [letter for letter in remp if letter not in revealed]
                 print(f"Letters in the word but not in the correct position: {' '.join(tempol)}")
                 break
